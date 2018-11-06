@@ -1,7 +1,7 @@
 ---
 title: "My Sixth Post"
 date: 2018-11-05T06:28:12+05:30
-draft: true
+draft: false
 author: Madhusudhan 
 ---
 
