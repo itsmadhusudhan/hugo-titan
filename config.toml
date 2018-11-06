@@ -1,0 +1,37 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Coding Titan"
+theme = "hugo-paper"
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -90
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/"
+    weight = -80
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  about = "about"
