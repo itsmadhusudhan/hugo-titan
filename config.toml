@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://keen-lovelace-42b864.netlify.com/"
 languageCode = "en-us"
 title = "Coding Titan"
 theme = "hugo-paper"
@@ -35,3 +35,5 @@ theme = "hugo-paper"
   tag = "tags"
   category = "categories"
   about = "about"
+[permalinks]
+  posts = "/:slug/"
